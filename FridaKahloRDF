@@ -12,10 +12,10 @@
 
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<https://w3id.org/fridakahlolodchamber/item/casa-azul> schema:About <https://w3id.org/fridakahlolodchamber/person/frida-kahlo> .
+<https://w3id.org/fridakahlolodchamber/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/fridakahlolodchamber/item/casa-azul> .
 
 
-<https://w3id.org/fridakahlolodchamber/item/frida-kahlo-portrait> schema:About <https://w3id.org/fridakahlolodchamber/person/frida-kahlo> .
+<https://w3id.org/fridakahlolodchamber/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/fridakahlolodchamber/item/frida-kahlo-portrait>   .
 
 
 <https://w3id.org/fridakahlolodchamber/item/casa-azul> a crm:E78_Curated_Holding ; 
@@ -59,6 +59,24 @@
 <https://w3id.org/fridakahlolodchamber/institution/met-museum> owl:sameAs <https://viaf.org/viaf/126238294/#Metropolitan_museum_of_art_New_York,_N.Y.> ;
  
                    dcterms:location <https://dbpedia.org/page/New_York> .
+
+<https://w3id.org/fridakahlolodchamber/item/frida-kahlo-an-open-life> a crm:E31_Document ;
+ 
+                  owl:sameAs <https://viaf.org/viaf/9133151965350400470006> ;
+
+                  dcterms:title "Frida Kahlo: An Open Life" ;
+                  
+                  dcterms:type <https://www.wikidata.org/wiki/Q571> ;
+                  
+                  dcterms:isPartOf <https://viaf.org/viaf/307472291/> ;
+                  
+                  dcterms:created <https://w3id.org/fridakahlolodchamber/year/1993> ;
+                  
+                  schema:author <https://www.wikidata.org/wiki/Q6100511> ;
+                  
+                  schema:publishedBy <https://www.worldcat.org/identities/lccn-no2002007460/> ;
+                  
+                  dcterms:language <https://www.wikidata.org/wiki/Q1860> .
  
 
  
