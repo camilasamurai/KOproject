@@ -1,0 +1,66 @@
+@base <https://fridakahlolodchamber.github.io/> . 
+
+@prefix crm: <http://cidoc-crm.org/cidoc-crm/> .
+
+@prefix schema: <https://schema.org> .
+
+@prefix dcterms: <https://purl.org/dc/terms/> .
+
+@prefix cdwa: <https://www.getty.edu/research/publications/electronic_publications/cdwa/> .
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://w3id.org/fridakahlolodchamber/item/casa-azul> schema:About <https://w3id.org/fridakahlolodchamber/person/frida-kahlo> .
+
+
+<https://w3id.org/fridakahlolodchamber/item/frida-kahlo-portrait> schema:About <https://w3id.org/fridakahlolodchamber/person/frida-kahlo> .
+
+
+<https://w3id.org/fridakahlolodchamber/item/casa-azul> a crm:E78_Curated_Holding ; 
+
+                   dcterms:location <https://www.wikidata.org/wiki/Q33506> ;
+
+                   dcterms:title <https://www.wikidata.org/wiki/Q20227883> ;
+
+                   crm:P49_has_former_or_current_keeper <https://dbpedia.org/page/Federal_government_of_Mexico/> ;
+
+                   cdwa:creation-date <https://w3id.org/fridakahlolodchamber/year/1957> ;
+
+                   dcterms:creator <https://www.wikidata.org/wiki/Q4381> ;
+
+                   crm:P19_was_intended_use_of <https://w3id.org/fridakahlolodchamber/item/frida-kahlo-house> .
+
+
+<https://w3id.org/fridakahlolodchamber/item/frida-kahlo-portrait> a crm:E36_Visual_Item ;  
+
+  
+
+                   cdwa:classification-term <https://www.wikidata.org/wiki/Property:P18> ;
+
+  
+
+                   dcterms:title <https://w3id.org/fridakahlolodchamber/item/frida-kahlo-portrait> ; 
+
+   
+
+                   dcterms:created <https://w3id.org/fridakahlolodchamber/year/1939> ; 
+
+  
+
+                   dcterms:created <https://dbpedia.org/page/Nickolas_Muray> ; 
+
+  
+
+                   crm:P55_has_current_location <https://w3id.org/fridakahlolodchamber/institution/met-museum> .
+ 
+                  
+<https://w3id.org/fridakahlolodchamber/institution/met-museum> owl:sameAs <https://viaf.org/viaf/126238294/#Metropolitan_museum_of_art_New_York,_N.Y.> ;
+ 
+                   dcterms:location <https://dbpedia.org/page/New_York> .
+ 
+
+ 
+
+ 
