@@ -14,8 +14,9 @@
 
 <https://w3id.org/fridakahlolodchamber/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/fridakahlolodchamber/item/casa-azul> .
 
+<https://w3id.org/fridakahlolodchamber/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/fridakahlolodchamber/item/frida-kahlo-portrait>  .
 
-<https://w3id.org/fridakahlolodchamber/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/fridakahlolodchamber/item/frida-kahlo-portrait>   .
+<https://w3id.org/fridakahlolodchamber/person/frida-kahlo> schema:isSubjectOf <https://w3id.org/fridakahlolodchamber/item/frida-kahlo-an-open-life> .
 
 
 <https://w3id.org/fridakahlolodchamber/item/casa-azul> a crm:E78_Curated_Holding ; 
